@@ -86,9 +86,8 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-cefco-blue to-blue-700 text-white py-20" data-testid="services-hero">
+      <section className="from-cefco-blue to-blue-700 text-white py-20 bg-[#111827]" data-testid="services-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Nos Services</h1>
@@ -106,7 +105,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       {/* Commercial Services */}
       <section className="py-20 bg-white" data-testid="commercial-services-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -151,7 +149,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       {/* Residential Services */}
       <section className="py-20 bg-gray-50" data-testid="residential-services-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -196,7 +193,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       {/* Why Choose Us */}
       <section className="py-20 bg-white" data-testid="why-choose-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -238,7 +234,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
