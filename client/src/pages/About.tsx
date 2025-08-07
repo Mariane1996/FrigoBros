@@ -43,9 +43,8 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-cefco-blue to-blue-700 text-white py-20" data-testid="about-hero">
+      <section className="from-cefco-blue to-blue-700 text-white py-20 bg-[#111827]" data-testid="about-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Badge variant="secondary" className="mb-4 text-lg px-4 py-2">
@@ -58,7 +57,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Main Story */}
       <section className="py-20 bg-white" data-testid="company-story">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -112,7 +110,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Certifications */}
       <section className="py-20 bg-gray-50" data-testid="certifications-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -141,7 +138,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Values */}
       <section className="py-20 bg-white" data-testid="values-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -164,7 +160,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Stats */}
       <section className="py-20 bg-cefco-blue text-white" data-testid="stats-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -188,7 +183,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Service Area */}
       <section className="py-20 bg-gray-50" data-testid="service-area-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -214,7 +208,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
