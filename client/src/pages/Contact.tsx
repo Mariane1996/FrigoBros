@@ -84,9 +84,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-cefco-blue to-blue-700 text-white py-20" data-testid="contact-hero">
+      <section className="from-cefco-blue to-blue-700 text-white py-20 bg-[#111827]" data-testid="contact-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contactez-nous</h1>
@@ -96,7 +95,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
       {/* Contact Section */}
       <section className="py-20 bg-white" data-testid="contact-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -352,7 +350,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
