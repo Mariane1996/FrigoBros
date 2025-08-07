@@ -131,7 +131,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Zone d'intervention</p>
-                    <p className="text-gray-600">Île-de-France et régions limitrophes</p>
+                    <p className="text-gray-600">Région Lyonnaise et alentours</p>
                   </div>
                 </div>
                 
