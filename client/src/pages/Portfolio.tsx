@@ -111,9 +111,8 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-cefco-blue to-blue-700 text-white py-20" data-testid="portfolio-hero">
+      <section className="from-cefco-blue to-blue-700 text-white py-20 bg-[#111827]" data-testid="portfolio-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Notre Portfolio</h1>
@@ -131,7 +130,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
       {/* Projects Grid */}
       <section className="py-20 bg-white" data-testid="projects-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -183,7 +181,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
       {/* Testimonials */}
       <section className="py-20 bg-gray-50" data-testid="testimonials-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -231,7 +228,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
       {/* Call to Action */}
       <section className="py-20 bg-cefco-blue text-white" data-testid="cta-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -256,7 +252,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
