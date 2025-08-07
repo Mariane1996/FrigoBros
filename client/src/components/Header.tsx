@@ -24,7 +24,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex-shrink-0" data-testid="logo-link">
-            <div className="text-2xl font-bold text-cefco-blue">CEFCO</div>
+            <div className="text-2xl font-bold text-[#141619]">CEFCO</div>
             <div className="text-xs text-gray-600">10 ans d'expérience</div>
           </Link>
           
@@ -74,7 +74,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      
       {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200" data-testid="mobile-menu">
