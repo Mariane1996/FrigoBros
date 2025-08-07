@@ -9,11 +9,10 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-cefco-blue to-blue-800 text-white" data-testid="hero-section">
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 bg-[#141619]">
           <div className="text-center">
             <div className="bg-white bg-opacity-20 rounded-full px-6 py-2 inline-block mb-6">
               <span className="text-lg font-semibold">10 ans d'expérience</span>
@@ -41,7 +40,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Services Overview */}
       <section className="py-20 bg-white" data-testid="services-overview">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -202,7 +200,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
