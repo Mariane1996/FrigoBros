@@ -64,7 +64,7 @@ export default function About() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Notre Histoire</h2>
               <p className="text-lg text-gray-600 mb-6">
-                CEFCO est née en 2014 de la passion partagée de deux frères pour les métiers du froid. 
+                CEFCO est née en 2024 de la passion partagée de deux frères pour les métiers du froid. 
                 Formés dans les meilleures écoles techniques, nous avons souhaité créer une entreprise 
                 à taille humaine, capable d'offrir un service personnalisé et de qualité.
               </p>
@@ -76,7 +76,7 @@ export default function About() {
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 Aujourd'hui, CEFCO c'est une équipe de spécialistes certifiés, des centaines 
-                d'installations réussies et la confiance de nombreux professionnels en Île-de-France.
+                d'installations réussies et la confiance de nombreux professionnels en Région Lyonnaise.
               </p>
               
               <div className="flex gap-4">
@@ -194,7 +194,7 @@ export default function About() {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Zone d'Intervention</h2>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Nous intervenons dans toute l'Île-de-France et les régions limitrophes 
+              Nous intervenons dans toute la région Lyonaise et alentours 
               pour tous vos projets de réfrigération et climatisation.
             </p>
             
