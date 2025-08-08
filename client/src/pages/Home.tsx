@@ -31,7 +31,7 @@ export default function HomePage() {
                   Découvrir nos services
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-cefco-blue">
+              <Button asChild variant="outline" size="lg" className="bg-white text-cefco-blue hover:bg-gray-100">
                 <Link href="/contact" data-testid="quote-cta">
                   Demander un devis
                 </Link>
